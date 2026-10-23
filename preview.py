@@ -8,7 +8,6 @@ import http.server
 import os
 import shutil
 import traceback
-
 import yaml
 from liquid import Environment
 
