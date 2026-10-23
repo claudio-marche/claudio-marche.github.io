@@ -1,0 +1,39 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+scripts:
+  - /assets/js/publications.js
+---
+{% assign pubs = site.data.publications %}
+{% assign n_journal = pubs | where: "type", "journal" | size %}
+{% assign n_conf = pubs | where: "type", "conference" | size %}
+
+<div class="pub-tools">
+  <div class="filters" role="group" aria-label="Filter by type">
+    <button type="button" data-filter="all" aria-pressed="true">All ({{ pubs | size }})</button>
+    <button type="button" data-filter="journal" aria-pressed="false">Journal articles ({{ n_journal }})</button>
+    <button type="button" data-filter="conference" aria-pressed="false">Conference proceedings ({{ n_conf }})</button>
+  </div>
+  <input type="search" id="pub-search" placeholder="Search title, author or venue" aria-label="Search publications">
+  <a class="scholar" href="{{ site.scholar_url }}">Full list on Google Scholar</a>
+</div>
+
+<div id="pub-list">
+{% assign groups = pubs | group_by: "year" | sort: "name" | reverse %}
+{% for g in groups %}
+  <div class="year-group">
+    <div class="year">{{ g.name }}</div>
+    <ul class="pubs">
+    {% for p in g.items %}
+      {% capture haystack %}{{ p.title }} {{ p.authors }} {{ p.venue }}{% endcapture %}
+      <li data-type="{{ p.type }}" data-search="{{ haystack | downcase | escape }}">
+        <span class="tag">[{{ p.id }}]</span><span class="pub-title">{{ p.title }}</span>
+        <div class="pub-meta">{{ p.authors | replace: "Marche C.", "<strong>Marche C.</strong>" }} <em>{{ p.venue }}</em>{% if p.details != "" %}, {{ p.details }}{% endif %}.{% if p.doi != "" %} <a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">doi:{{ p.doi }}</a>{% endif %}</div>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+  <p class="empty" id="pub-empty" hidden>No publications match this search.</p>
+</div>

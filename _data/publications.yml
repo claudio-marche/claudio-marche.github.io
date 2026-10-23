@@ -1,0 +1,290 @@
+# Publications. To add one, copy a block and change the fields.
+# type: journal or conference | doi: leave "" if not available
+
+- type: journal
+  id: R1
+  year: 2026
+  authors: "Marche C., Popescu V., Atzori L., Nitti M."
+  title: "Context-Aware Itinerary Planning in Smart Tourism: IoT-Enabled Design and Tourist Profiling"
+  venue: "IEEE Internet of Things Journal"
+  details: "13(15), 34146–34157"
+  doi: "10.1109/JIOT.2026.3696714"
+
+- type: journal
+  id: R2
+  year: 2026
+  authors: "Marche C."
+  title: "Edge–Cloud Orchestration for IoT Services: Technologies, Architectures, and Research Directions"
+  venue: "IEEE Access"
+  details: "14, 117775–117792"
+  doi: "10.1109/ACCESS.2026.3719135"
+
+- type: journal
+  id: R3
+  year: 2025
+  authors: "Marche C., Nitti M."
+  title: "Towards trustworthy digital twins collaboration in the internet of things: an overview of essential design guidelines"
+  venue: "Computer Networks"
+  details: "272, 111733"
+  doi: "10.1016/j.comnet.2025.111733"
+
+- type: journal
+  id: R4
+  year: 2025
+  authors: "Marche C., Massidda E., Sanna A., Angius G., Nitti M., Maiorca D., Lai S."
+  title: "Secure and Trusted Crowdsensing for Outdoor Air Quality Monitoring: State of the Art and Perspectives"
+  venue: "Sensors"
+  details: "25(12), 3573"
+  doi: "10.3390/s25123573"
+
+- type: journal
+  id: R5
+  year: 2025
+  authors: "Del Vecchio V., Lazoi M., Marche C., Mettouris C., Montagud M., Specchia G., Ali M.Z."
+  title: "Designing Innovative Digital Solutions in the Cultural Heritage and Tourism Industry: Best Practices for an Immersive User Experience"
+  venue: "Applied Sciences"
+  details: "15(9), 4935"
+  doi: "10.3390/app15094935"
+
+- type: journal
+  id: R6
+  year: 2024
+  authors: "Porcu S., Marche C., Floris A."
+  title: "No-Reference Objective Quality Metrics for 3D Point Clouds: A Review"
+  venue: "Sensors"
+  details: "24(22), 7383"
+  doi: "10.3390/s24227383"
+
+- type: journal
+  id: R7
+  year: 2024
+  authors: "Serreli L., Marche C., Nitti M."
+  title: "Reducing Data Volume in News Topic Classification: Deep Learning Framework and Dataset"
+  venue: "IEEE Open Journal of the Computer Society"
+  details: "6, 153–164"
+  doi: "10.1109/OJCS.2024.3519747"
+
+- type: journal
+  id: R8
+  year: 2023
+  authors: "Marche C., Soma G.G., Nitti M."
+  title: "A Cognitive Social IoT Approach for Smart Energy Management in a Real Environment"
+  venue: "IEEE Transactions on Network and Service Management"
+  details: "20(4), 4061–4072"
+  doi: "10.1109/TNSM.2023.3255409"
+
+- type: journal
+  id: R9
+  year: 2023
+  authors: "Marche C., Loscri V., Nitti M."
+  title: "A Channel Selection Model based on Trust Metrics for Wireless Communications"
+  venue: "IEEE Transactions on Network and Service Management"
+  details: "20(4), 4517–4527"
+  doi: "10.1109/TNSM.2023.3277578"
+
+- type: journal
+  id: R10
+  year: 2023
+  authors: "Marche C., Cabiddu I., Castangia C.G., Serreli L., Nitti M."
+  title: "Implementation of a multi-approach fake news detector and of a trust management model for news sources"
+  venue: "IEEE Transactions on Services Computing"
+  details: "16(6), 4288–4301"
+  doi: "10.1109/TSC.2023.3311629"
+
+- type: journal
+  id: R11
+  year: 2022
+  authors: "Marche C., Nitti M."
+  title: "Can We Trust Trust Management Systems?"
+  venue: "IoT"
+  details: "3(2), 262–272"
+  doi: "10.3390/iot3020015"
+
+- type: journal
+  id: R12
+  year: 2021
+  authors: "Marche C., Nitti M."
+  title: "Trust-related Attacks and their Detection: a Trust Management Model for the Social IoT"
+  venue: "IEEE Transactions on Network and Service Management"
+  details: "18(3), 3297–3308"
+  doi: "10.1109/TNSM.2020.3046906"
+
+- type: journal
+  id: R13
+  year: 2021
+  authors: "Marche C., Nitti M."
+  title: "A Binary Trust Game for the Internet of Things"
+  venue: "IoT"
+  details: "2(1), 50–70"
+  doi: "10.3390/iot2010004"
+
+- type: journal
+  id: R14
+  year: 2021
+  authors: "Marche C., Serreli L., Nitti M."
+  title: "Analysis of Feedback Evaluation for Trust Management Models in the Internet of Things"
+  venue: "IoT"
+  details: "2(3), 498–509"
+  doi: "10.3390/iot2030025"
+
+- type: journal
+  id: R15
+  year: 2020
+  authors: "Marche C., Atzori L., Pilloni V., Nitti M."
+  title: "How to exploit the Social Internet of Things: Query Generation Model and Device Profiles’ Dataset"
+  venue: "Computer Networks"
+  details: "174, 107248"
+  doi: "10.1016/j.comnet.2020.107248"
+
+- type: conference
+  id: C1
+  year: 2026
+  authors: "Marche C., Piras L.L., Nitti M."
+  title: "Trust Beyond Perfection: Managing Uncertainty in the Internet of Digital Twins"
+  venue: "ICC 2026 – IEEE International Conference on Communications"
+  details: "1–6"
+  doi: ""
+
+- type: conference
+  id: C2
+  year: 2026
+  authors: "Marche C., Nitti M., Atzori L., Porcu S."
+  title: "Bridging IoT and the Metaverse: Policies for the Synchronization of Digital Twins"
+  venue: "ICC 2026 – IEEE International Conference on Communications"
+  details: "1–6"
+  doi: ""
+
+- type: conference
+  id: C3
+  year: 2025
+  authors: "Marche C., Nitti M."
+  title: "An Investigation of Trust Management Systems in Digital Twin Architectures"
+  venue: "2025 IEEE Globecom Workshops (GC Wkshps)"
+  details: "544–549"
+  doi: ""
+
+- type: conference
+  id: C4
+  year: 2025
+  authors: "Serreli L., Marche C., Amadeo M., Nitti M."
+  title: "Dynamic Utility-Based Service Discovery among Socially-enhanced Digital Twins"
+  venue: "2025 IEEE 36th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)"
+  details: ""
+  doi: ""
+
+- type: conference
+  id: C5
+  year: 2025
+  authors: "Piras L.L., Marche C., Quattropani S., Sciddurlo G., Nitti M."
+  title: "Leveraging Social IoT to Improve Orchestration of Digital Twin Networks"
+  venue: "2025 IEEE 11th World Forum on Internet of Things (WF-IoT)"
+  details: "1–6"
+  doi: ""
+
+- type: conference
+  id: C6
+  year: 2024
+  authors: "Marche C., Perra L., Nitti M."
+  title: "Crowdsensing and Trusted Digital Twins for Environmental Noise Monitoring"
+  venue: "IEEE MeditCom 2024"
+  details: "535–540"
+  doi: "10.1109/MeditCom61057.2024.10621396"
+
+- type: conference
+  id: C7
+  year: 2024
+  authors: "Amadeo M., Marche C., Ruggeri G., Ranjbaran S., Nitti M."
+  title: "Composing Digital Twins for Internet of Everything Applications: A User-Centric Perspective"
+  venue: "IEEE MeditCom 2024"
+  details: "73–78"
+  doi: "10.1109/MeditCom61057.2024.10621154"
+
+- type: conference
+  id: C8
+  year: 2024
+  authors: "Busia P., Marche C., Meloni P., Reforgiato Recupero D."
+  title: "Design of an AI-driven Architecture with Cobots for Digital Transformation to Enhance Quality Control in the Food Industry"
+  venue: "ACM UMAP 2024 Adjunct"
+  details: "424–428"
+  doi: "10.1145/3631700.3665242"
+
+- type: conference
+  id: C9
+  year: 2024
+  authors: "Del Vecchio V., Lazoi M., Marche C., Mettouris C., Montagud M., Specchia G., Ali M.Z."
+  title: "Designing Digital Solutions in the Cultural Heritage and Tourism Industry for Advancing Visitors’ Experiences: SMEs Needs, Preferences, and Expectations"
+  venue: "International Conference on Extended Reality (LNCS)"
+  details: "301–309"
+  doi: "10.1007/978-3-031-71710-9_23"
+
+- type: conference
+  id: C10
+  year: 2024
+  authors: "Amadeo M., Ruggeri G., Marche C., Nitti M."
+  title: "Service Discovery and Provisioning in Social Digital Twin Networks: a Name-based Approach"
+  venue: "WiMob 2024"
+  details: "295–300"
+  doi: "10.1109/WiMob61911.2024.10770426"
+
+- type: conference
+  id: C11
+  year: 2024
+  authors: "Ranjbaran S., Amadeo M., Marche C., Ruggeri G., Sinha A., Nitti M."
+  title: "Cloud-Edge Resource Management and Migration: Leveraging Online Learning for Digital Twin Re-placement"
+  venue: "IEEE WF-IoT 2024"
+  details: "1–6"
+  doi: "10.1109/WF-IoT62078.2024.10811458"
+
+- type: conference
+  id: C12
+  year: 2023
+  authors: "Marche C., Nitti M., Ranjbaran S."
+  title: "An Evaluation of Service Discovery Mechanisms for a Network of Social Digital Twins"
+  venue: "IEEE Globecom 2023"
+  details: "3215–3221"
+  doi: "10.1109/GLOBECOM54140.2023.10437182"
+
+- type: conference
+  id: C13
+  year: 2022
+  authors: "Marche C., Cabiddu I., Castangia C.G., Serreli L., Nitti M."
+  title: "Fake News Detection based on Blockchain Technology"
+  venue: "IEEE PIMRC 2022"
+  details: "654–659"
+  doi: ""
+
+- type: conference
+  id: C14
+  year: 2019
+  authors: "Marche C., Nitti M."
+  title: "IoT for the users: Thermal comfort and cost saving"
+  venue: "Proceedings of the ACM MobiHoc Workshop on Pervasive Systems in the IoT Era"
+  details: "55–60"
+  doi: "10.1145/3331052.3332479"
+
+- type: conference
+  id: C15
+  year: 2018
+  authors: "Marche C., Atzori L., Nitti M."
+  title: "A Dataset for Performance Analysis of the Social Internet of Things"
+  venue: "IEEE PIMRC 2018"
+  details: "1–5"
+  doi: "10.1109/PIMRC.2018.8580830"
+
+- type: conference
+  id: C16
+  year: 2018
+  authors: "Marche C., Atzori L., Iera A., Militano L., Nitti M."
+  title: "Navigability in Social Networks of Objects: The Importance of Friendship Type and Nodes’ Distance"
+  venue: "IEEE Globecom Workshops 2017"
+  details: "1–6"
+  doi: "10.1109/GLOCOMW.2017.8269111"
+
+- type: conference
+  id: C17
+  year: 2017
+  authors: "Marche C., Nitti M., Pilloni V."
+  title: "Energy efficiency in smart building: A comfort aware approach based on Social Internet of Things"
+  venue: "GIoTS 2017"
+  details: "1–6"
+  doi: "10.1109/GIOTS.2017.8016267"

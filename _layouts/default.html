@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.url != "/" %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Schibsted+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="site-name" href="{{ '/' | relative_url }}">Claudio Marche</a>
+    <nav aria-label="Main">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  {% unless page.hide_title %}<h1 class="page-title">{{ page.title }}</h1>{% endunless %}
+  {{ content }}
+</main>
+
+<footer class="wrap site-footer">
+  <span>© {{ 'now' | date: "%Y" }} Claudio Marche</span>
+  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+</footer>
+
+{% for s in page.scripts %}<script src="{{ s | relative_url }}"></script>{% endfor %}
+</body>
+</html>
